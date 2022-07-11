@@ -96,4 +96,4 @@ function loadImg(meal, searchTerm) {
 
 ## Acknowledgments
 
-The load image function was reference from [iamcodefoxx] (https://github.com/iamcodefoxx/UnsplashAPI)
+The load image function was reference from [iamcodefoxx](https://github.com/iamcodefoxx/UnsplashAPI)
