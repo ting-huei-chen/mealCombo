@@ -25,7 +25,7 @@ This is a small application that helps my decidophobia.
 
 ### Screenshot
 
-![](images/screenshot.jpg)
+![](screenshot.jpg)
 
 ### Links
 
