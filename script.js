@@ -1,7 +1,8 @@
 var randomNum =Math.floor(Math.random() * 10);
 // var url =
 //   "https://api.unsplash.com/search/photos/?query=rice&client_id=LVlqvl5R5gtId0y5-bb-SkraI0ZgSltaXPKo51HbS2o&per_page="+randomNum;
-// console.log(url);
+
+
 
 var container = document.querySelector("#container");
 
@@ -46,13 +47,17 @@ function generateMeal(){
     
     let repeat = ["main","side","drinks"];
     for(let i of repeat){
+        
         let elem = randomElem(window[i+"Arr"]);
         // console.log("generate meal="+i);
-        // loadImg(i,elem);
+        
+        loadImg(i,elem);
         let card = document.getElementById(i);
+        
         card.querySelector("h4").innerHTML= elem;
         card.querySelector("a:first-of-type").href="https://www.google.com/maps/search/"+elem+"+near+me";
         card.querySelector("a:last-of-type").href="https://www.google.com/search?q="+elem+"+recipe";
+        
     };
 
 }
